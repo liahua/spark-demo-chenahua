@@ -1,6 +1,10 @@
 import org.apache.spark.sql.{DataFrame, SQLContext, SparkSession}
 import org.apache.spark.{SparkConf, SparkContext}
 
+/**
+ * https://www.cnblogs.com/ronnieyuan/p/12249118.html
+ * Spark-Sql参考这篇
+ */
 object SparkSqlApplication {
   case class Person(name:String, age:Int, addr:String)
 
